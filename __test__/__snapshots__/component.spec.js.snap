@@ -2,10 +2,9 @@
 
 exports[`Loading component renders when active 1`] = `
 <div
+  aria-busy="true"
   aria-label="Loading"
-  aria-live="polite"
   class="loading-overlay is-active is-full-page"
-  name="fade"
   tabindex="0"
 >
   <div
@@ -18,4 +17,19 @@ exports[`Loading component renders when active 1`] = `
 </div>
 `;
 
-exports[`Loading component renders when not active 1`] = `<!---->`;
+exports[`Loading component renders when not active 1`] = `
+<div
+  aria-label="Loading"
+  class="loading-overlay is-active is-full-page"
+  style="display: none;"
+  tabindex="0"
+>
+  <div
+    class="loading-background"
+  />
+   
+  <div
+    class="loading-icon"
+  />
+</div>
+`;
