@@ -29,8 +29,7 @@
         type: Boolean,
         default: true
       },
-      //todo rename this to `transition`
-      animation: {
+      transition: {
         type: String,
         default: 'fade'
       },
